@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A13B74CB1D964D0100A3827D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A13B74CA1D964D0100A3827D /* main.m */; };
+		A13B74CE1D964D0100A3827D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A13B74CD1D964D0100A3827D /* AppDelegate.m */; };
+		A13B74D11D964D0100A3827D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A13B74D01D964D0100A3827D /* ViewController.m */; };
+		A13B74D41D964D0100A3827D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A13B74D21D964D0100A3827D /* Main.storyboard */; };
+		A13B74D61D964D0100A3827D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A13B74D51D964D0100A3827D /* Assets.xcassets */; };
+		A13B74D91D964D0100A3827D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A13B74D71D964D0100A3827D /* LaunchScreen.storyboard */; };
+		A13B74E41D964D0200A3827D /* SQVideoMangerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A13B74E31D964D0200A3827D /* SQVideoMangerDemoTests.m */; };
+		A13B74EF1D964D0200A3827D /* SQVideoMangerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A13B74EE1D964D0200A3827D /* SQVideoMangerDemoUITests.m */; };
+		A13B74FF1D9655F600A3827D /* X-man.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A13B74FE1D9655F600A3827D /* X-man.mp4 */; };
+		A1FC1AB51D981D7300C9045B /* SQBaseCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FC1A3D1D981D7300C9045B /* SQBaseCollectionViewController.swift */; };
+		A1FC1AB61D981D7300C9045B /* SQBaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FC1A3E1D981D7300C9045B /* SQBaseTableViewController.swift */; };
+		A1FC1AB71D981D7300C9045B /* SQBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FC1A3F1D981D7300C9045B /* SQBaseViewController.swift */; };
+		A1FC1AB81D981D7300C9045B /* LWComRes.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FC1A421D981D7300C9045B /* LWComRes.m */; };
+		A1FC1AB91D981D7300C9045B /* LWNotificationRes.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FC1A461D981D7300C9045B /* LWNotificationRes.m */; };
+		A1FC1ABA1D981D7300C9045B /* SQAccountData.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FC1A491D981D7300C9045B /* SQAccountData.m */; };
+		A1FC1ABB1D981D7300C9045B /* SQRootTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FC1A4C1D981D7300C9045B /* SQRootTabBar.swift */; };
+		A1FC1ABC1D981D7300C9045B /* SQCollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FC1A4E1D981D7300C9045B /* SQCollectionViewDelegate.swift */; };
+		A1FC1ABD1D981D7300C9045B /* SQTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FC1A4F1D981D7300C9045B /* SQTableViewDelegate.swift */; };
+		A1FC1ACE1D981D7300C9045B /* Macro.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FC1A751D981D7300C9045B /* Macro.swift */; };
+		A1FC1AD01D981D7300C9045B /* SQImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FC1A791D981D7300C9045B /* SQImageModel.swift */; };
+		A1FC1AE31D981D7300C9045B /* SQKeyboardTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FC1AAD1D981D7300C9045B /* SQKeyboardTool.swift */; };
+		A1FC1AE41D981D7300C9045B /* SQActionSheetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FC1AB01D981D7300C9045B /* SQActionSheetCell.swift */; };
+		A1FC1AE51D981D7300C9045B /* SQActionSheetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1FC1AB11D981D7300C9045B /* SQActionSheetCell.xib */; };
+		A1FC1AE61D981D7300C9045B /* SQActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FC1AB21D981D7300C9045B /* SQActionSheetView.swift */; };
+		A1FC1AE71D981D7300C9045B /* SQInputTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FC1AB31D981D7300C9045B /* SQInputTableCell.swift */; };
+		A1FC1AE81D981D7300C9045B /* SQInputTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1FC1AB41D981D7300C9045B /* SQInputTableCell.xib */; };
+		A1FC1AF01D9822DF00C9045B /* SQPlayController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FC1AEF1D9822DF00C9045B /* SQPlayController.m */; };
+		A1FC1AF31D9825D200C9045B /* SQMergeController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FC1AF21D9825D200C9045B /* SQMergeController.m */; };
+		A1FC1AF51D98261A00C9045B /* SQMergeController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1FC1AF41D98261A00C9045B /* SQMergeController.storyboard */; };
+		A1FC1AF71D9828E800C9045B /* 2074509_花香.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1FC1AF61D9828E800C9045B /* 2074509_花香.mp3 */; };
+		A1FC1AFA1D98A55B00C9045B /* SQMusicController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FC1AF91D98A55B00C9045B /* SQMusicController.m */; };
+		A1FC1AFD1D98A6B300C9045B /* SQLrcParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FC1AFC1D98A6B300C9045B /* SQLrcParser.m */; };
+		A1FC1B001D98A75D00C9045B /* 时间都去哪儿了.lrc in Resources */ = {isa = PBXBuildFile; fileRef = A1FC1AFE1D98A75D00C9045B /* 时间都去哪儿了.lrc */; };
+		A1FC1B011D98A75D00C9045B /* 时间都去哪儿了.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1FC1AFF1D98A75D00C9045B /* 时间都去哪儿了.mp3 */; };
+		A1FC1B031D98A9AB00C9045B /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1FC1B021D98A9AB00C9045B /* bg.jpg */; };
+		A1FC1B0A1D98AD4600C9045B /* SQLrcCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1FC1B091D98AD4600C9045B /* SQLrcCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A13B74E01D964D0200A3827D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A13B74BE1D964D0100A3827D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A13B74C51D964D0100A3827D;
+			remoteInfo = SQVideoMangerDemo;
+		};
+		A13B74EB1D964D0200A3827D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A13B74BE1D964D0100A3827D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A13B74C51D964D0100A3827D;
+			remoteInfo = SQVideoMangerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A13B74C61D964D0100A3827D /* SQVideoMangerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQVideoMangerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A13B74CA1D964D0100A3827D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A13B74CC1D964D0100A3827D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A13B74CD1D964D0100A3827D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A13B74CF1D964D0100A3827D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A13B74D01D964D0100A3827D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A13B74D31D964D0100A3827D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A13B74D51D964D0100A3827D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A13B74D81D964D0100A3827D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A13B74DA1D964D0100A3827D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A13B74DF1D964D0200A3827D /* SQVideoMangerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQVideoMangerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A13B74E31D964D0200A3827D /* SQVideoMangerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQVideoMangerDemoTests.m; sourceTree = "<group>"; };
+		A13B74E51D964D0200A3827D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A13B74EA1D964D0200A3827D /* SQVideoMangerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQVideoMangerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A13B74EE1D964D0200A3827D /* SQVideoMangerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQVideoMangerDemoUITests.m; sourceTree = "<group>"; };
+		A13B74F01D964D0200A3827D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A13B74FE1D9655F600A3827D /* X-man.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "X-man.mp4"; sourceTree = "<group>"; };
+		A1FC1A3D1D981D7300C9045B /* SQBaseCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQBaseCollectionViewController.swift; sourceTree = "<group>"; };
+		A1FC1A3E1D981D7300C9045B /* SQBaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQBaseTableViewController.swift; sourceTree = "<group>"; };
+		A1FC1A3F1D981D7300C9045B /* SQBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQBaseViewController.swift; sourceTree = "<group>"; };
+		A1FC1A411D981D7300C9045B /* LWComRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWComRes.h; sourceTree = "<group>"; };
+		A1FC1A421D981D7300C9045B /* LWComRes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWComRes.m; sourceTree = "<group>"; };
+		A1FC1A431D981D7300C9045B /* LWDefineUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWDefineUtil.h; sourceTree = "<group>"; };
+		A1FC1A441D981D7300C9045B /* LWHead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWHead.h; sourceTree = "<group>"; };
+		A1FC1A451D981D7300C9045B /* LWNotificationRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWNotificationRes.h; sourceTree = "<group>"; };
+		A1FC1A461D981D7300C9045B /* LWNotificationRes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWNotificationRes.m; sourceTree = "<group>"; };
+		A1FC1A471D981D7300C9045B /* qbshen-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "qbshen-Prefix.pch"; sourceTree = "<group>"; };
+		A1FC1A481D981D7300C9045B /* SQAccountData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQAccountData.h; sourceTree = "<group>"; };
+		A1FC1A491D981D7300C9045B /* SQAccountData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQAccountData.m; sourceTree = "<group>"; };
+		A1FC1A4C1D981D7300C9045B /* SQRootTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQRootTabBar.swift; sourceTree = "<group>"; };
+		A1FC1A4E1D981D7300C9045B /* SQCollectionViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQCollectionViewDelegate.swift; sourceTree = "<group>"; };
+		A1FC1A4F1D981D7300C9045B /* SQTableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQTableViewDelegate.swift; sourceTree = "<group>"; };
+		A1FC1A751D981D7300C9045B /* Macro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Macro.swift; sourceTree = "<group>"; };
+		A1FC1A791D981D7300C9045B /* SQImageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQImageModel.swift; sourceTree = "<group>"; };
+		A1FC1AAD1D981D7300C9045B /* SQKeyboardTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQKeyboardTool.swift; sourceTree = "<group>"; };
+		A1FC1AB01D981D7300C9045B /* SQActionSheetCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQActionSheetCell.swift; sourceTree = "<group>"; };
+		A1FC1AB11D981D7300C9045B /* SQActionSheetCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SQActionSheetCell.xib; sourceTree = "<group>"; };
+		A1FC1AB21D981D7300C9045B /* SQActionSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQActionSheetView.swift; sourceTree = "<group>"; };
+		A1FC1AB31D981D7300C9045B /* SQInputTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQInputTableCell.swift; sourceTree = "<group>"; };
+		A1FC1AB41D981D7300C9045B /* SQInputTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SQInputTableCell.xib; sourceTree = "<group>"; };
+		A1FC1AEB1D981E5B00C9045B /* SQ-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SQ-Bridging-Header.h"; sourceTree = "<group>"; };
+		A1FC1AEE1D9822DF00C9045B /* SQPlayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPlayController.h; sourceTree = "<group>"; };
+		A1FC1AEF1D9822DF00C9045B /* SQPlayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPlayController.m; sourceTree = "<group>"; };
+		A1FC1AF11D9825D200C9045B /* SQMergeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQMergeController.h; sourceTree = "<group>"; };
+		A1FC1AF21D9825D200C9045B /* SQMergeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQMergeController.m; sourceTree = "<group>"; };
+		A1FC1AF41D98261A00C9045B /* SQMergeController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SQMergeController.storyboard; sourceTree = "<group>"; };
+		A1FC1AF61D9828E800C9045B /* 2074509_花香.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "2074509_花香.mp3"; sourceTree = "<group>"; };
+		A1FC1AF81D98A55B00C9045B /* SQMusicController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQMusicController.h; sourceTree = "<group>"; };
+		A1FC1AF91D98A55B00C9045B /* SQMusicController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQMusicController.m; sourceTree = "<group>"; };
+		A1FC1AFB1D98A6B300C9045B /* SQLrcParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLrcParser.h; sourceTree = "<group>"; };
+		A1FC1AFC1D98A6B300C9045B /* SQLrcParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLrcParser.m; sourceTree = "<group>"; };
+		A1FC1AFE1D98A75D00C9045B /* 时间都去哪儿了.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "时间都去哪儿了.lrc"; sourceTree = "<group>"; };
+		A1FC1AFF1D98A75D00C9045B /* 时间都去哪儿了.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "时间都去哪儿了.mp3"; sourceTree = "<group>"; };
+		A1FC1B021D98A9AB00C9045B /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+		A1FC1B091D98AD4600C9045B /* SQLrcCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLrcCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A13B74C31D964D0100A3827D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13B74DC1D964D0200A3827D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13B74E71D964D0200A3827D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A13B74BD1D964D0100A3827D = {
+			isa = PBXGroup;
+			children = (
+				A13B74C81D964D0100A3827D /* SQVideoMangerDemo */,
+				A13B74E21D964D0200A3827D /* SQVideoMangerDemoTests */,
+				A13B74ED1D964D0200A3827D /* SQVideoMangerDemoUITests */,
+				A13B74C71D964D0100A3827D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A13B74C71D964D0100A3827D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A13B74C61D964D0100A3827D /* SQVideoMangerDemo.app */,
+				A13B74DF1D964D0200A3827D /* SQVideoMangerDemoTests.xctest */,
+				A13B74EA1D964D0200A3827D /* SQVideoMangerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A13B74C81D964D0100A3827D /* SQVideoMangerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A1FC1A3B1D981D7300C9045B /* SQKit */,
+				A13B74FE1D9655F600A3827D /* X-man.mp4 */,
+				A1FC1AF61D9828E800C9045B /* 2074509_花香.mp3 */,
+				A1FC1B021D98A9AB00C9045B /* bg.jpg */,
+				A1FC1AFE1D98A75D00C9045B /* 时间都去哪儿了.lrc */,
+				A1FC1AFF1D98A75D00C9045B /* 时间都去哪儿了.mp3 */,
+				A13B74CC1D964D0100A3827D /* AppDelegate.h */,
+				A13B74CD1D964D0100A3827D /* AppDelegate.m */,
+				A13B74CF1D964D0100A3827D /* ViewController.h */,
+				A13B74D01D964D0100A3827D /* ViewController.m */,
+				A1FC1AF81D98A55B00C9045B /* SQMusicController.h */,
+				A1FC1AF91D98A55B00C9045B /* SQMusicController.m */,
+				A1FC1AFB1D98A6B300C9045B /* SQLrcParser.h */,
+				A1FC1AFC1D98A6B300C9045B /* SQLrcParser.m */,
+				A1FC1B091D98AD4600C9045B /* SQLrcCell.swift */,
+				A1FC1AEE1D9822DF00C9045B /* SQPlayController.h */,
+				A1FC1AEF1D9822DF00C9045B /* SQPlayController.m */,
+				A1FC1AF11D9825D200C9045B /* SQMergeController.h */,
+				A1FC1AF21D9825D200C9045B /* SQMergeController.m */,
+				A1FC1AF41D98261A00C9045B /* SQMergeController.storyboard */,
+				A13B74D21D964D0100A3827D /* Main.storyboard */,
+				A13B74D51D964D0100A3827D /* Assets.xcassets */,
+				A13B74D71D964D0100A3827D /* LaunchScreen.storyboard */,
+				A13B74DA1D964D0100A3827D /* Info.plist */,
+				A13B74C91D964D0100A3827D /* Supporting Files */,
+			);
+			path = SQVideoMangerDemo;
+			sourceTree = "<group>";
+		};
+		A13B74C91D964D0100A3827D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A13B74CA1D964D0100A3827D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A13B74E21D964D0200A3827D /* SQVideoMangerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A13B74E31D964D0200A3827D /* SQVideoMangerDemoTests.m */,
+				A13B74E51D964D0200A3827D /* Info.plist */,
+			);
+			path = SQVideoMangerDemoTests;
+			sourceTree = "<group>";
+		};
+		A13B74ED1D964D0200A3827D /* SQVideoMangerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A13B74EE1D964D0200A3827D /* SQVideoMangerDemoUITests.m */,
+				A13B74F01D964D0200A3827D /* Info.plist */,
+			);
+			path = SQVideoMangerDemoUITests;
+			sourceTree = "<group>";
+		};
+		A1FC1A3B1D981D7300C9045B /* SQKit */ = {
+			isa = PBXGroup;
+			children = (
+				A1FC1A3C1D981D7300C9045B /* Base */,
+				A1FC1A401D981D7300C9045B /* Config */,
+				A1FC1A4A1D981D7300C9045B /* Controller */,
+				A1FC1A4D1D981D7300C9045B /* Core */,
+				A1FC1A751D981D7300C9045B /* Macro.swift */,
+				A1FC1A761D981D7300C9045B /* Model */,
+				A1FC1AAB1D981D7300C9045B /* Util */,
+				A1FC1AAE1D981D7300C9045B /* Views */,
+			);
+			path = SQKit;
+			sourceTree = "<group>";
+		};
+		A1FC1A3C1D981D7300C9045B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A1FC1A3D1D981D7300C9045B /* SQBaseCollectionViewController.swift */,
+				A1FC1A3E1D981D7300C9045B /* SQBaseTableViewController.swift */,
+				A1FC1A3F1D981D7300C9045B /* SQBaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A1FC1A401D981D7300C9045B /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				A1FC1A411D981D7300C9045B /* LWComRes.h */,
+				A1FC1A421D981D7300C9045B /* LWComRes.m */,
+				A1FC1A431D981D7300C9045B /* LWDefineUtil.h */,
+				A1FC1A441D981D7300C9045B /* LWHead.h */,
+				A1FC1A451D981D7300C9045B /* LWNotificationRes.h */,
+				A1FC1AEB1D981E5B00C9045B /* SQ-Bridging-Header.h */,
+				A1FC1A461D981D7300C9045B /* LWNotificationRes.m */,
+				A1FC1A471D981D7300C9045B /* qbshen-Prefix.pch */,
+				A1FC1A481D981D7300C9045B /* SQAccountData.h */,
+				A1FC1A491D981D7300C9045B /* SQAccountData.m */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		A1FC1A4A1D981D7300C9045B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A1FC1A4B1D981D7300C9045B /* RootTabBar */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A1FC1A4B1D981D7300C9045B /* RootTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				A1FC1A4C1D981D7300C9045B /* SQRootTabBar.swift */,
+			);
+			path = RootTabBar;
+			sourceTree = "<group>";
+		};
+		A1FC1A4D1D981D7300C9045B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A1FC1A4E1D981D7300C9045B /* SQCollectionViewDelegate.swift */,
+				A1FC1A4F1D981D7300C9045B /* SQTableViewDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A1FC1A761D981D7300C9045B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A1FC1A791D981D7300C9045B /* SQImageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A1FC1AAB1D981D7300C9045B /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				A1FC1AAC1D981D7300C9045B /* KeyboardTool */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		A1FC1AAC1D981D7300C9045B /* KeyboardTool */ = {
+			isa = PBXGroup;
+			children = (
+				A1FC1AAD1D981D7300C9045B /* SQKeyboardTool.swift */,
+			);
+			path = KeyboardTool;
+			sourceTree = "<group>";
+		};
+		A1FC1AAE1D981D7300C9045B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A1FC1AAF1D981D7300C9045B /* SQActionSheetView */,
+				A1FC1AB31D981D7300C9045B /* SQInputTableCell.swift */,
+				A1FC1AB41D981D7300C9045B /* SQInputTableCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A1FC1AAF1D981D7300C9045B /* SQActionSheetView */ = {
+			isa = PBXGroup;
+			children = (
+				A1FC1AB01D981D7300C9045B /* SQActionSheetCell.swift */,
+				A1FC1AB11D981D7300C9045B /* SQActionSheetCell.xib */,
+				A1FC1AB21D981D7300C9045B /* SQActionSheetView.swift */,
+			);
+			path = SQActionSheetView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A13B74C51D964D0100A3827D /* SQVideoMangerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A13B74F31D964D0200A3827D /* Build configuration list for PBXNativeTarget "SQVideoMangerDemo" */;
+			buildPhases = (
+				A13B74C21D964D0100A3827D /* Sources */,
+				A13B74C31D964D0100A3827D /* Frameworks */,
+				A13B74C41D964D0100A3827D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQVideoMangerDemo;
+			productName = SQVideoMangerDemo;
+			productReference = A13B74C61D964D0100A3827D /* SQVideoMangerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A13B74DE1D964D0200A3827D /* SQVideoMangerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A13B74F61D964D0200A3827D /* Build configuration list for PBXNativeTarget "SQVideoMangerDemoTests" */;
+			buildPhases = (
+				A13B74DB1D964D0200A3827D /* Sources */,
+				A13B74DC1D964D0200A3827D /* Frameworks */,
+				A13B74DD1D964D0200A3827D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A13B74E11D964D0200A3827D /* PBXTargetDependency */,
+			);
+			name = SQVideoMangerDemoTests;
+			productName = SQVideoMangerDemoTests;
+			productReference = A13B74DF1D964D0200A3827D /* SQVideoMangerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A13B74E91D964D0200A3827D /* SQVideoMangerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A13B74F91D964D0200A3827D /* Build configuration list for PBXNativeTarget "SQVideoMangerDemoUITests" */;
+			buildPhases = (
+				A13B74E61D964D0200A3827D /* Sources */,
+				A13B74E71D964D0200A3827D /* Frameworks */,
+				A13B74E81D964D0200A3827D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A13B74EC1D964D0200A3827D /* PBXTargetDependency */,
+			);
+			name = SQVideoMangerDemoUITests;
+			productName = SQVideoMangerDemoUITests;
+			productReference = A13B74EA1D964D0200A3827D /* SQVideoMangerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A13B74BE1D964D0100A3827D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = qbshen;
+				TargetAttributes = {
+					A13B74C51D964D0100A3827D = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					A13B74DE1D964D0200A3827D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A13B74C51D964D0100A3827D;
+					};
+					A13B74E91D964D0200A3827D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A13B74C51D964D0100A3827D;
+					};
+				};
+			};
+			buildConfigurationList = A13B74C11D964D0100A3827D /* Build configuration list for PBXProject "SQVideoMangerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A13B74BD1D964D0100A3827D;
+			productRefGroup = A13B74C71D964D0100A3827D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A13B74C51D964D0100A3827D /* SQVideoMangerDemo */,
+				A13B74DE1D964D0200A3827D /* SQVideoMangerDemoTests */,
+				A13B74E91D964D0200A3827D /* SQVideoMangerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A13B74C41D964D0100A3827D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1FC1AF71D9828E800C9045B /* 2074509_花香.mp3 in Resources */,
+				A13B74D91D964D0100A3827D /* LaunchScreen.storyboard in Resources */,
+				A1FC1B011D98A75D00C9045B /* 时间都去哪儿了.mp3 in Resources */,
+				A13B74FF1D9655F600A3827D /* X-man.mp4 in Resources */,
+				A1FC1AF51D98261A00C9045B /* SQMergeController.storyboard in Resources */,
+				A1FC1B031D98A9AB00C9045B /* bg.jpg in Resources */,
+				A1FC1AE51D981D7300C9045B /* SQActionSheetCell.xib in Resources */,
+				A1FC1AE81D981D7300C9045B /* SQInputTableCell.xib in Resources */,
+				A13B74D61D964D0100A3827D /* Assets.xcassets in Resources */,
+				A13B74D41D964D0100A3827D /* Main.storyboard in Resources */,
+				A1FC1B001D98A75D00C9045B /* 时间都去哪儿了.lrc in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13B74DD1D964D0200A3827D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13B74E81D964D0200A3827D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A13B74C21D964D0100A3827D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13B74D11D964D0100A3827D /* ViewController.m in Sources */,
+				A1FC1ABC1D981D7300C9045B /* SQCollectionViewDelegate.swift in Sources */,
+				A1FC1AE61D981D7300C9045B /* SQActionSheetView.swift in Sources */,
+				A1FC1ABA1D981D7300C9045B /* SQAccountData.m in Sources */,
+				A1FC1AB51D981D7300C9045B /* SQBaseCollectionViewController.swift in Sources */,
+				A1FC1AB91D981D7300C9045B /* LWNotificationRes.m in Sources */,
+				A1FC1AF31D9825D200C9045B /* SQMergeController.m in Sources */,
+				A1FC1B0A1D98AD4600C9045B /* SQLrcCell.swift in Sources */,
+				A1FC1AB61D981D7300C9045B /* SQBaseTableViewController.swift in Sources */,
+				A1FC1AE31D981D7300C9045B /* SQKeyboardTool.swift in Sources */,
+				A1FC1ABD1D981D7300C9045B /* SQTableViewDelegate.swift in Sources */,
+				A1FC1AB71D981D7300C9045B /* SQBaseViewController.swift in Sources */,
+				A13B74CE1D964D0100A3827D /* AppDelegate.m in Sources */,
+				A1FC1AFA1D98A55B00C9045B /* SQMusicController.m in Sources */,
+				A1FC1AD01D981D7300C9045B /* SQImageModel.swift in Sources */,
+				A1FC1AE71D981D7300C9045B /* SQInputTableCell.swift in Sources */,
+				A1FC1ACE1D981D7300C9045B /* Macro.swift in Sources */,
+				A13B74CB1D964D0100A3827D /* main.m in Sources */,
+				A1FC1AE41D981D7300C9045B /* SQActionSheetCell.swift in Sources */,
+				A1FC1AFD1D98A6B300C9045B /* SQLrcParser.m in Sources */,
+				A1FC1AF01D9822DF00C9045B /* SQPlayController.m in Sources */,
+				A1FC1AB81D981D7300C9045B /* LWComRes.m in Sources */,
+				A1FC1ABB1D981D7300C9045B /* SQRootTabBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13B74DB1D964D0200A3827D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13B74E41D964D0200A3827D /* SQVideoMangerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13B74E61D964D0200A3827D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A13B74EF1D964D0200A3827D /* SQVideoMangerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A13B74E11D964D0200A3827D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A13B74C51D964D0100A3827D /* SQVideoMangerDemo */;
+			targetProxy = A13B74E01D964D0200A3827D /* PBXContainerItemProxy */;
+		};
+		A13B74EC1D964D0200A3827D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A13B74C51D964D0100A3827D /* SQVideoMangerDemo */;
+			targetProxy = A13B74EB1D964D0200A3827D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A13B74D21D964D0100A3827D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A13B74D31D964D0100A3827D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A13B74D71D964D0100A3827D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A13B74D81D964D0100A3827D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A13B74F11D964D0200A3827D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A13B74F21D964D0200A3827D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A13B74F41D964D0200A3827D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "SQVideoMangerDemo/SQKit/Config/qbshen-Prefix.pch";
+				INFOPLIST_FILE = SQVideoMangerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qbshen.SQVideoMangerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SQVideoMangerDemo/SQKit/Config/SQ-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		A13B74F51D964D0200A3827D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "SQVideoMangerDemo/SQKit/Config/qbshen-Prefix.pch";
+				INFOPLIST_FILE = SQVideoMangerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qbshen.SQVideoMangerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SQVideoMangerDemo/SQKit/Config/SQ-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		A13B74F71D964D0200A3827D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SQVideoMangerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qbshen.SQVideoMangerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQVideoMangerDemo.app/SQVideoMangerDemo";
+			};
+			name = Debug;
+		};
+		A13B74F81D964D0200A3827D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SQVideoMangerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qbshen.SQVideoMangerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQVideoMangerDemo.app/SQVideoMangerDemo";
+			};
+			name = Release;
+		};
+		A13B74FA1D964D0200A3827D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SQVideoMangerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qbshen.SQVideoMangerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SQVideoMangerDemo;
+			};
+			name = Debug;
+		};
+		A13B74FB1D964D0200A3827D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SQVideoMangerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qbshen.SQVideoMangerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SQVideoMangerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A13B74C11D964D0100A3827D /* Build configuration list for PBXProject "SQVideoMangerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A13B74F11D964D0200A3827D /* Debug */,
+				A13B74F21D964D0200A3827D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A13B74F31D964D0200A3827D /* Build configuration list for PBXNativeTarget "SQVideoMangerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A13B74F41D964D0200A3827D /* Debug */,
+				A13B74F51D964D0200A3827D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A13B74F61D964D0200A3827D /* Build configuration list for PBXNativeTarget "SQVideoMangerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A13B74F71D964D0200A3827D /* Debug */,
+				A13B74F81D964D0200A3827D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A13B74F91D964D0200A3827D /* Build configuration list for PBXNativeTarget "SQVideoMangerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A13B74FA1D964D0200A3827D /* Debug */,
+				A13B74FB1D964D0200A3827D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A13B74BE1D964D0100A3827D /* Project object */;
+}

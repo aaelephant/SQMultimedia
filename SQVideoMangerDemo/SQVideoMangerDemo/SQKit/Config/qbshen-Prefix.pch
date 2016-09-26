@@ -1,0 +1,53 @@
+//
+//  youthGo-Prefix.pch
+//  youthGo
+//
+//  Created by qbshen on 16/2/20.
+//  Copyright © 2016年 qbshen. All rights reserved.
+//
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#define NSEaseLocalizedString(key, comment) [[NSBundle bundleWithURL:[[NSBundle mainBundle] URLForResource:@"EaseUIResource" withExtension:@"bundle"]] localizedStringForKey:(key) value:@"" table:nil]
+
+#define SQLocalizedString(key, comment)  [NSString stringWithFormat:@"%@", [[NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:[NSString stringWithFormat:@"%@",[[NSUserDefaults standardUserDefaults] objectForKey:@"appLanguage"]] ofType:@"lproj"]] localizedStringForKey:(key) value:nil table:@"SQLocalizable"]]
+
+#define APPLANGUAGE (@"appLanguage")
+#define APPLANGUAGE_USERSET (@"appLanguage_userset")
+
+#define LANGUAGE_EN (@"en")
+#define LANGUAGE_ZH_HANS (@"zh-Hans")
+#define LANGUAGE_ZH_HANT (@"zh-Hant")
+
+#define KEY_CHAT_EXT_KEY_CHAT_NAME (@"chat_name")
+#define KEY_CHAT_EXT_KEY_CHAT_id (@"chat_id")
+#define KEY_CHAT_EXT_KEY_CHAT_HEADURL (@"chat_headUrl")
+
+#define KEY_EM_MSG_EXT_text (@"em_msg_ext_text")
+#define KEY_EM_MSG_EXT_USERNAME (@"em_msg_ext_user_name")
+#define KEY_EM_MSG_EXT_USERHEADURL (@"em_msg_ext_user_headUrl")
+#define KEY_EM_MSG_EXT_USERID (@"em_msg_ext_user_id")
+#define KEY_EM_MSG_EXT_GROUPID (@"em_msg_ext_group_id")
+#define KEY_EM_MSG_EXT_GROUPNAME (@"em_msg_ext_group_name")
+#define KEY_EM_MSG_EXT_GROUPHEADURLS (@"em_msg_ext_group_headUrls")//[@"",@"",@""]
+
+#define KEY_EM_MSG_EXT_ISTOP (@"em_msg_ext_is_top")
+
+#define KNOTIFICATIONNAME_RESET_CHAT_BG_IMAGE (@"KNOTIFICATIONNAME_reset_chat_bg_image")
+
+#define KNOTIFICATION_UPDATE_FRIENDS (@"KNOTIFICATION_update_friends")
+#define KNOTIFICATION_UPDATE_GROUPS (@"KNOTIFICATION_update_groups")
+
+#define LOVEPOST_TYPE_BOY (@"1")
+#define LOVEPOST_TYPE_GIRL (@"2")
+
+#define SYS_WHOLE_BG_COLOR (COLOR_RGB(234, 234, 234, 1));
+
+#import "SQVideoMangerDemo-Swift.h"
+
+#endif /* youthGo_Prefix_pch */

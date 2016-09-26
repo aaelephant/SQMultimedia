@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Merge Controller-->
+        <scene sceneID="7yq-mo-tlv">
+            <objects>
+                <viewController storyboardIdentifier="SQMergeController" id="jwb-NL-pfB" customClass="SQMergeController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Qyi-JB-MYS"/>
+                        <viewControllerLayoutGuide type="bottom" id="brN-ca-Afv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="psh-y1-0xg">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qfp-xA-aaH">
+                                <rect key="frame" x="5" y="28" width="105" height="30"/>
+                                <state key="normal" title="选择第一个视频"/>
+                                <connections>
+                                    <action selector="LoadAssetOne:" destination="jwb-NL-pfB" eventType="touchUpInside" id="GrU-VB-VFP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XHt-3f-Bkg">
+                                <rect key="frame" x="5" y="285" width="105" height="30"/>
+                                <state key="normal" title="选择第二个视频"/>
+                                <connections>
+                                    <action selector="LoadAssetTwo:" destination="jwb-NL-pfB" eventType="touchUpInside" id="8d2-7q-VlF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WPz-jB-Er6">
+                                <rect key="frame" x="20" y="489" width="75" height="30"/>
+                                <state key="normal" title="选择一首歌"/>
+                                <connections>
+                                    <action selector="LoadAudio:" destination="jwb-NL-pfB" eventType="touchUpInside" id="9nz-Bp-VML"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xuJ-rh-IAA">
+                                <rect key="frame" x="11" y="66" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="xuJ-rh-IAA" secondAttribute="height" multiplier="15:8" id="Xsg-JR-4OG"/>
+                                    <constraint firstAttribute="height" constant="128" id="s35-m4-4X3"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aQ3-eD-DVQ">
+                                <rect key="frame" x="11" y="317" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="aQ3-eD-DVQ" secondAttribute="height" multiplier="15:8" id="5v0-1l-tA4"/>
+                                    <constraint firstAttribute="height" constant="128" id="oIn-3W-vQZ"/>
+                                </constraints>
+                            </imageView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="b03-tt-syb">
+                                <rect key="frame" x="205" y="494" width="20" height="20"/>
+                            </activityIndicatorView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fbp-1x-mzi">
+                                <rect key="frame" x="128" y="489" width="60" height="30"/>
+                                <state key="normal" title="开始合成"/>
+                                <connections>
+                                    <action selector="MergeAndSave:" destination="jwb-NL-pfB" eventType="touchUpInside" id="xFe-KM-E7A"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Fbp-1x-mzi" firstAttribute="leading" secondItem="WPz-jB-Er6" secondAttribute="trailing" constant="33" id="7qe-aA-ers"/>
+                            <constraint firstItem="aQ3-eD-DVQ" firstAttribute="leading" secondItem="psh-y1-0xg" secondAttribute="leadingMargin" constant="-9" id="9Ih-0B-Fty"/>
+                            <constraint firstItem="Fbp-1x-mzi" firstAttribute="centerY" secondItem="WPz-jB-Er6" secondAttribute="centerY" id="Bsk-aa-K9g"/>
+                            <constraint firstItem="qfp-xA-aaH" firstAttribute="top" secondItem="Qyi-JB-MYS" secondAttribute="bottom" constant="8" id="GBC-RO-a1a"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="WPz-jB-Er6" secondAttribute="leading" id="Ktu-Z1-1UL"/>
+                            <constraint firstItem="xuJ-rh-IAA" firstAttribute="top" secondItem="qfp-xA-aaH" secondAttribute="bottom" constant="8" id="SY6-8J-WpN"/>
+                            <constraint firstItem="XHt-3f-Bkg" firstAttribute="centerY" secondItem="psh-y1-0xg" secondAttribute="centerY" id="Zfu-WX-6rb"/>
+                            <constraint firstItem="XHt-3f-Bkg" firstAttribute="leading" secondItem="psh-y1-0xg" secondAttribute="leadingMargin" constant="-15" id="hzi-bi-tD5"/>
+                            <constraint firstItem="qfp-xA-aaH" firstAttribute="leading" secondItem="psh-y1-0xg" secondAttribute="leadingMargin" constant="-15" id="iMU-9I-AUX"/>
+                            <constraint firstItem="b03-tt-syb" firstAttribute="leading" secondItem="WPz-jB-Er6" secondAttribute="trailing" constant="17" id="lCi-p4-344"/>
+                            <constraint firstItem="WPz-jB-Er6" firstAttribute="top" secondItem="aQ3-eD-DVQ" secondAttribute="bottom" constant="44" id="mgm-G1-Hle"/>
+                            <constraint firstItem="xuJ-rh-IAA" firstAttribute="leading" secondItem="psh-y1-0xg" secondAttribute="leadingMargin" constant="-9" id="p04-y0-38o"/>
+                            <constraint firstItem="b03-tt-syb" firstAttribute="leading" secondItem="Fbp-1x-mzi" secondAttribute="trailing" constant="17" id="r8f-iz-Vwx"/>
+                            <constraint firstItem="aQ3-eD-DVQ" firstAttribute="top" secondItem="XHt-3f-Bkg" secondAttribute="bottom" constant="2" id="t8K-uk-dDD"/>
+                            <constraint firstItem="b03-tt-syb" firstAttribute="centerY" secondItem="WPz-jB-Er6" secondAttribute="centerY" id="v6Z-Xj-7fM"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="lCi-p4-344"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="ActivityView" destination="b03-tt-syb" id="smJ-aN-SIt"/>
+                        <outlet property="oneImage" destination="xuJ-rh-IAA" id="16K-Av-htG"/>
+                        <outlet property="twoImage" destination="aQ3-eD-DVQ" id="GgW-TN-bfR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="By9-kC-VHI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="489" y="-86"/>
+        </scene>
+    </scenes>
+</document>
